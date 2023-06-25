@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #84a59d;
+}
+
+.App-component {
+  margin-bottom: -100rem;
 }
 
 .App-logo {
@@ -14,18 +19,126 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #f1cbc6;
+  min-height: 30vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+}
+
+.App-header-name {
+  color: #84a59d;
+  margin-left: 1rem;
+  display: inline-block;
+  flex-direction: column;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+}
+
+.App-header-name-text {
+  margin-top: -0.1rem;
+  margin-bottom: -0.5rem;
+}
+
+.App-bio {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.App-bio-text {
+  color: #f1cbc6;
+  padding: 5rem;
+  margin-top: -1.5rem;
+  font-size: 2rem;
+}
+
+.App-bio-image {
+  max-height: 60vh;
+  max-width: 55vh;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.App-blog-h1 {
+  color: #f1cbc6;
+  font-size: 6rem;
+  margin-left: -20rem;
+}
+
+.App-blog-h2 {
+  font-size: 2rem;
+  margin-top: -7rem;
+  margin-left: 15rem;
+}
+
+.App-blog-para {
+  margin-left: 20rem;
+  margin-right: 5rem;
+  text-align: left;
+}
+
+.App-contact {
+  color: #f1cbc6;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  margin-right: 2rem;
+  margin-top: -2rem;
+}
+
+.App-contact-links {
+  padding-bottom: 2rem;
+}
+
+.App-contact-para {
+  color: #f1cbc6;
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-top: 10rem;
+}
+
+.Link-text {
+  text-decoration: none;
+  color: #f1cbc6;
+  text-align: left;
+}
+
+.Link-text-big {
+  font-size: 6rem;
+  margin-left: 2rem;
+}
+
+.Link-text-small {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: -7rem;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+.App-header-nav {
+  text-decoration: none;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+  justify-content: space-between;
+  padding: 1em;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:active {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {

@@ -1,25 +1,36 @@
+import React,{ Component }  from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/header.js';
+import Bio from './components/bio.js';
+import Blog from './components/blog.js';
+import Contact from './components/contact.js';
+import NotFound from './components/notFound.js';
 import logo from './logo.svg';
 import './App.css';
+import { createStore, applyMiddleware } from 'redux'; 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const store = createStore(() => [], {}, applyMiddleware());
+
+class App extends Component {
+  
+  render() {
+    return (
+      <Provider store={store}>
+        <BrowserRouter>
+          <div className="App">
+            <Header />
+            <Routes>
+              <Route path='/' element={<Bio/>} exact={true} />
+              <Route path='/blog' element={<Blog/>} />
+              <Route path='/contact' element={<Contact/>} />
+              <Route path='*' element={<NotFound />} />
+            </Routes>
+          </div>
+        </BrowserRouter>
+      </Provider>
+    );
+  }
 }
 
 export default App;
