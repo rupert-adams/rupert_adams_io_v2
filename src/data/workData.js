@@ -1,5 +1,3 @@
-import work_picture_01 from '../media/work_pictures/01.png'
-
 export const workData = [
     {
         'title': 'Tech Writing',
