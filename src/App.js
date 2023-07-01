@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/header.js';
 import Bio from './components/bio.js';
-import Blog from './components/blog.js';
+import Work from './components/work.js';
 import Contact from './components/contact.js';
 import NotFound from './components/notFound.js';
 import logo from './logo.svg';
@@ -22,7 +22,7 @@ class App extends Component {
             <Header />
             <Routes>
               <Route path='/' element={<Bio/>} exact={true} />
-              <Route path='/blog' element={<Blog/>} />
+              <Route path='/work' element={<Work/>} />
               <Route path='/contact' element={<Contact/>} />
               <Route path='*' element={<NotFound />} />
             </Routes>

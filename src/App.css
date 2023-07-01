@@ -67,22 +67,38 @@
   margin-bottom: 5rem;
 }
 
-.App-blog-h1 {
+.App-work-block {
+  margin-bottom: 10rem;
+}
+
+.App-work-h1 {
   color: #f1cbc6;
   font-size: 6rem;
   margin-left: -20rem;
 }
 
-.App-blog-h2 {
+.App-work-h2 {
   font-size: 2rem;
   margin-top: -7rem;
-  margin-left: 15rem;
+  margin-left: -12rem;
 }
 
-.App-blog-para {
+.App-work-subtitle {
   margin-left: 20rem;
   margin-right: 5rem;
   text-align: left;
+  font-style: italic;
+}
+
+.App-work-para {
+  margin-left: 20rem;
+  margin-right: 5rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.App-work-link {
+  color: #000000;
 }
 
 .App-contact {
