@@ -11,7 +11,7 @@ const Header = (props) => (
             </div>
             <div className="App-header-nav">
                 <NavLink className="App-link" to='/'>About</NavLink>
-                <NavLink className="App-link" to='/blog'>Blog</NavLink>
+                <NavLink className="App-link" to='/work'>Work</NavLink>
                 <NavLink className="App-link" to='/contact'>Contact</NavLink> 
             </div>
         </header>
@@ -38,7 +38,7 @@ export default connect(mapStateToProps)(Header)
 //                     <h1>X</h1>
 //                     <h1>{this.state.job}</h1>
 //                     <NavLink to='/'>Home</NavLink>
-//                     <NavLink to='/blog'>Blog</NavLink>
+//                     <NavLink to='/work'>work</NavLink>
 //                     <NavLink to='/contact'>Contact</NavLink>
 //                 </header>
 //             </div>
