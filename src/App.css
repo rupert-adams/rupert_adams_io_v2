@@ -157,6 +157,12 @@
   text-decoration: underline;
 }
 
+.App-not-found-page {
+  padding-bottom: 20rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

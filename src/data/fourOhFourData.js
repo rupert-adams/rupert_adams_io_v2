@@ -11,7 +11,12 @@ export const fourOhFourData = [
     },
     {
         'errTitle': "This page has not been found.",
-        'errMessage': "Whether on purpose or by some stroke of terrible luck you have found yourself here. If you were hoping to find something interesting I am afraid you will be dissapointed. This page exists purely to let you know just how lost you are. And this paragraph exists purely to waste your time. Had you not have continued to read you could have already returned to the home page by now. You might have even closed the tab to my website. But instead you are here, ceaselessly searching for some greater meaning in the words. A meaning you shall never find. If you haven't given up yet I offer this one piece of advice: stop reading this. Honestly what are you still doing here? If I were you I would have a long hard think about how I spend my time. I wish you all the best with whatever you choose to do next, it honestly can't be as meaningless as your current task of reading some guy's 404 page. Did you know that you can lead a cow upstairs but you can't lead it down? You could learn lots of fun facts like this by doing literally anything else.",
+        'errMessage': "Page? What page? I don't see any page here. You must be confused. Why don't you just click that button there and return home eh?",
         'goHomeButton': "Go to Home"
+    },
+    {
+        'errTitle': "You found me!",
+        'errMessage': "Hurray! You win! you found the page with nothing on it! We are all very proud of you. To think...most people would just click on the buttons above but no, not you. You went boldly where no-one even thought to go before! What an adventure. The bards will surely sing tales of your endevours. Lets go back and tell everyone what a great job you did.",
+        'goHomeButton': "Return Triumphant"
     }
 ]
