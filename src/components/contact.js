@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => (
     <div className="App-component">
         <div className="App-contact">
-            <p className="App-contact-para">Feel free to contact me via e-mail, follow me on twitter or add me on LinkedIn. On second thought its probably better to not follow me on twitter.</p>
+            <p className="App-contact-para">Feel free to contact me via e-mail, follow me on twitter or add me on LinkedIn. On second thought, its probably better not to follow me on twitter.</p>
             <div className="App-contact-links">
                 <a href="mailto:rupertadams@protonmail.com" className="Link-text">
                     <h1 className="Link-text-big">Email</h1>
