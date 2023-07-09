@@ -182,7 +182,7 @@
 
   .App-header-name {
     color: #f1cbc6;
-    margin-left: -11rem;
+    margin-left: -8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -198,7 +198,7 @@
   }
 
   .App-header-nav {
-    margin-left: -5rem;
+    margin-left: -2rem;
   }
 
   /* About page */
@@ -206,12 +206,13 @@
     display: flex;
     flex-direction: row;
     text-align: left;
-    padding-bottom: 7rem;
+    padding-bottom: 9rem;
   }
   
   .App-bio-text {
     color: #000000;
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
     margin-top: -1.5rem;
     font-size: 1.5rem;
     
@@ -222,25 +223,26 @@
   }
 
     /* Work page */
-    .App-work-block {
-      margin-bottom: 10rem;
-    }
+  .App-work-block {
+    margin-bottom: 12rem;
+  }
+  
+  .App-work-h1 {
+    color: #84a59d;
+    font-size: 6rem;
+    margin-left: -10rem;
+    margin-top: 2rem;
+  }
     
-    .App-work-h1 {
-      color: #84a59d;
-      font-size: 6rem;
-      margin-left: -10rem;
-    }
+  .App-work-subtitle {
+    margin-left: 2rem;
+    margin-right: 5rem;
+  }
     
-    .App-work-subtitle {
-      margin-left: 2rem;
-      margin-right: 5rem;
-    }
-    
-    .App-work-para {
-      margin-left: 2rem;
-      margin-right: 5rem;
-    }
+  .App-work-para {
+    margin-left: 2rem;
+    margin-right: 5rem;
+  }
     
   /* Contact page */
   .App-contact {
@@ -249,7 +251,6 @@
     flex-direction: column;
     text-align: left;
     margin-right: 2rem;
-    margin-top: -rem;
   }
   
   .App-contact-links {
@@ -269,7 +270,7 @@
   
   .Link-text-big {
     font-size: 5rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
     margin-bottom: -3.2rem;
   }
   
@@ -277,7 +278,7 @@
     color: #000000;
     font-size: 1.6rem;
     margin-top: 2rem;
-    margin-left: 4.7rem;
+    margin-left: 1.4rem;
     margin-bottom: -1rem;
     font-weight: bold;
   }
