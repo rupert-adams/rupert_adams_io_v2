@@ -12,7 +12,7 @@ export const workData = [
         'title': 'Certification',
         'subtitle': "Exactly what it says on the tin. No frills, no mercy.",
         'links': [
-            ["2023 - The Linux Foundation: Certified Kubernetes Administrator", "https://www.credly.com/badges/779924c8-5f68-46b9-a0fb-57cf7ef11f80/public_url"]
+            ["2023 - The Linux Foundation: Certified Kubernetes Administrator", "https://www.credly.com/badges/779924c8-5f68-46b9-a0fb-57cf7ef11f80/public_url"],
             ["2023 - Oracle Cloud Infrastructure Foundations: Associate", "https://bit.ly/46xIWaY"],
             ["2021 - AWS Solutions Architecht: Associate (Validation Number: GVXS942L22BQQ59E)", "https://bit.ly/3ptAedd"]
         ]
