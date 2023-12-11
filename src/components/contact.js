@@ -9,9 +9,9 @@ const Contact = () => (
                     <h1 className="Link-text-big">Email</h1>
                     <p className="Link-text-small">rupertadams@protonmail.com</p>
                 </a>
-                <a href="https://www.twitter.com/skull_diggery" className="Link-text" target="_blank">
+                <a href="https://www.twitter.com/rupert_adams" className="Link-text" target="_blank">
                     <h1 className="Link-text-big">Twitter</h1>
-                    <p className="Link-text-small">@skull_diggery</p>
+                    <p className="Link-text-small">@rupert_adams</p>
                 </a>
                 <a href="https://www.linkedin.com/in/rupertncadams/" className="Link-text" target="_blank">
                     <h1 className="Link-text-big">LinkedIn</h1>
