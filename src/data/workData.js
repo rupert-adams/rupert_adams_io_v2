@@ -17,11 +17,13 @@ export const workData = [
             ["2021 - AWS Solutions Architecht: Associate (Validation Number: GVXS942L22BQQ59E)", "https://bit.ly/3ptAedd"]
         ]
     },
-    // {
-    //     'title': 'Designworks',
-    //     'subtitle': 'Coming Soon!',
-    //     'links': []
-    // },
+     {
+         'title': 'Fiction',
+         'subtitle': "Stories I've written. Weird, Sci-fi, Ghost stories and just about anything else that pops into my head and onto my laptop.",
+         'links': [
+             ["Rupert Adams - Substack", "https://rupertadams.substack.com"]
+         ]
+     },
     // {
     //     'title': 'Theory',
     //     'subtitle': 'Coming Soon!',
