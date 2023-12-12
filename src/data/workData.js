@@ -18,15 +18,18 @@ export const workData = [
         ]
     },
      {
-         'title': 'Fiction',
+         'title': 'Fiction Writing',
          'subtitle': "Stories I've written. Weird, Sci-fi, Ghost stories and just about anything else that pops into my head and onto my laptop.",
          'links': [
-             ["Rupert Adams - Substack", "https://rupertadams.substack.com"]
+             ["2023~Now - Rupert Adams - Substack", "https://rupertadams.substack.com"]
          ]
      },
-    // {
-    //     'title': 'Theory',
-    //     'subtitle': 'Coming Soon!',
-    //     'links': []
-    // }
+     {
+        'title': 'Non-Fiction Writing',
+        'subtitle': "Reviews, Retrospectives, Theory etc. Any writing that doesn't fit the other categories.",
+         'links': [
+             ["2024 - Lost in Cult's THE HORROR:Mansion - Kenji Eno: Legacy of 'D'","https://bit.ly/47T6bwC"]
+             ["2015~s2016 - A Younger Theatre: Looking East (Eastern European Theatre Review)", "https://bit.ly/3GK2SM4"]
+         ]
+     }
 ]
