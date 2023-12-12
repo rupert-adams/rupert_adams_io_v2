@@ -29,7 +29,7 @@ export const workData = [
         'subtitle': "Reviews, Retrospectives, Theory etc. Any writing that doesn't fit the other categories.",
          'links': [
              ["2024 - Lost in Cult's THE HORROR:Mansion - Kenji Eno: Legacy of 'D'","https://bit.ly/47T6bwC"]
-             ["2015~s2016 - A Younger Theatre: Looking East (Eastern European Theatre Review)", "https://bit.ly/3GK2SM4"]
+             ["2015~2016 - A Younger Theatre: Looking East (Eastern European Theatre Review)", "https://bit.ly/3GK2SM4"]
          ]
      }
 ]
