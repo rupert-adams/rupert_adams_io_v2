@@ -13,7 +13,7 @@ export const workData = [
         'subtitle': "Exactly what it says on the tin. No frills, no mercy.",
         'links': [
             ["2023 - The Linux Foundation: Certified Kubernetes Administrator", "https://bit.ly/3RmOX3w"],
-            ["2023 - The Linux Foundation: LFC131: Green Software for Practitioners", "https://bit.ly/488cbSk"]
+            ["2023 - The Linux Foundation: LFC131: Green Software for Practitioners", "https://bit.ly/488cbSk"],
             ["2023 - Oracle Cloud Infrastructure Foundations: Associate", "https://bit.ly/46xIWaY"],
             ["2021 - AWS Solutions Architecht: Associate (Validation Number: GVXS942L22BQQ59E)", "https://bit.ly/3ptAedd"]
         ]
