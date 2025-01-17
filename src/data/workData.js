@@ -29,7 +29,7 @@ export const workData = [
         'title': 'Non-Fiction Writing',
         'subtitle': "Reviews, Retrospectives, Theory etc. Any writing that doesn't fit the other categories.",
          'links': [
-             ["2024~Now - Skull_Diggery Backloggd","https://www.backloggd.com/u/Skull_Diggery"]
+             ["2024~Now - Skull_Diggery Backloggd","https://www.backloggd.com/u/Skull_Diggery"],
              ["2024 - Lost in Cult's THE HORROR:Mansion - Eno: A retrospective on the works of Kenji Eno","https://www.lostincult.co.uk/mansion"],
              ["2015~2016 - A Younger Theatre: Looking East (Eastern European Theatre Review)", "https://bit.ly/3GK2SM4"]
          ]
